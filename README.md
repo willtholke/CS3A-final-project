@@ -1,7 +1,7 @@
 # CS3A-final-project
-#### Name: William Tholke
-#### Date: 03/21/2021
-#### Course: CS3A w/ Professor Reed
+#### **Name:** William Tholke
+#### **Date:** 03/21/2021
+#### **Course:** CS3A w/ Professor Reed
 
 ## Overview
 This project displays airbnb data from a .csv file in a way that allows user to interact with data.
