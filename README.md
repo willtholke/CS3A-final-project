@@ -15,6 +15,12 @@
   
 <!-- Overview -->
 ## Overview
+<p align="center">
+    <a href="https://github.com/willtholke/NY-rent-data">
+        <img src="product-screenshot.png" alt="Product screenshot" width="80" height"80">
+    <a/>
+<p>
+
 This project displays airbnb data from a .csv file in a way that allows user to interact with said data.
 
 <!-- Setup -->
