@@ -1,6 +1,8 @@
+<!-- Project Reference Links -->
 [![Contributors][contributors-shield]][contributors-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+<!--Project Header -->
 <h1 align="center">NY-Rent-Data</h1>
 <h3 align="center">Load, display, & interact with lightweight airbnb data.</h3>
 
@@ -10,23 +12,35 @@
     <a href="#changelog">Changelog</a>
 </h4>
   
-
+<!-- Overview -->
 ## Overview
 This project displays airbnb data from a .csv file in a way that allows user to interact with said data.
 
+<!-- Setup -->
 ## Setup
-1) install Discord package: `pip install discord`
+To get a local copy up and running, follow these steps.
+
+### Installation
+1. Clone the repo
+    ```sh
+    git clone https://github.com/willtholke/NY-rent-data.git
+    ```
+    
+### requirements.txt
+1. Navigate to the correct directory using Command Prompt (Windows) or Terminal (Mac)
+2. Automatically install the libraries used in this project
+    ```sh
+    pip install -r requirements.txt
+    ```
 
 ## Changelog
-This program has been modified since its last version such that the new global string object called 'filename' (which refers to the new airbnb data source, 'AB_NYC_2019.csv') is utilized in load_file(), the new method in the DataSet class that loads data from filename.
-### Error Notes:
-Added InvalidDataLength class to the DataSet class (lines 96, 97) as a logical error to be raised (lines 178-180) if the length of the file referred to by 'filename' is not 48895.
-### Other Notes: 
-Set global variable line_count equal to len(self.data) to avoid "Expected type 'Sized', got 'None' instead" error that occurred when attempting to print len(self.data) on line 477. The value of line_count is manipulated twice in the program, which does not affect the output in any unintended way.
+### Recent Changes
+* The new global string object called 'filename' (which refers to the new airbnb data source, 'AB_NYC_2019.csv') is utilized in load_file(), the new method in the DataSet class that loads data from filename.
+* Added InvalidDataLength class to the DataSet class (lines 96, 97) as a logical error to be raised (lines 178-180) if the length of the file referred to by 'filename' is not 48895.
+* Set global variable line_count equal to len(self.data) to avoid "Expected type 'Sized', got 'None' instead" error that occurred when attempting to print len(self.data) on line 477. The value of line_count is manipulated twice in the program, which does not affect the output in any unintended way.
 
 
 ## Acknowledgements
-
 * [Professor Eric Reed](https://www.linkedin.com/in/eric-reed-a18b82a1)
 
 
