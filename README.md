@@ -23,7 +23,24 @@
 <p>
 
 
-<p> This project displays airbnb data from a .csv file in a way that allows user to interact with said data. </p>
+<p> This repository is an improved version of my submission for the final assignment in Foothill College Professor Eric Reed's course, Object-Oriented Programming Methodologies in Python (CS3A), which I completed during the Winter 2021 Quarter at Foothill College. This repository no longer serves as a valid submission for the final project and has no remaining utility for students at Foothill College.
+
+
+### Pythonic Features
+* Class design and object creation
+* Enum & custom exception classes
+* Property decorators
+* Recursive sorting
+* Deepcopies
+* File I/O
+* Unit Tests
+* List & set comprehension
+* PEP-8 convention
+
+## Notable Easter Eggs
+* '/help' function
+* 'style' class (for colored text in event output)
+* a = b if c else d assignment pattern
 
 <!-- Setup -->
 ## Setup
