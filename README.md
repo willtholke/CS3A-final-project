@@ -9,7 +9,8 @@
 <h4 align="center">
     <a href="#overview">Overview</a> -
     <a href="#setup">Setup</a> -
-    <a href="#changelog">Changelog</a>
+    <a href="#changelog">Changelog</a> -
+    <a href="#acknowledgements">Acknowledgements</a>
 </h4>
   
 <!-- Overview -->
@@ -18,7 +19,7 @@ This project displays airbnb data from a .csv file in a way that allows user to 
 
 <!-- Setup -->
 ## Setup
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps
 
 ### Installation
 1. Clone the repo
@@ -26,8 +27,8 @@ To get a local copy up and running, follow these steps.
     git clone https://github.com/willtholke/NY-rent-data.git
     ```
     
-### requirements.txt
-1. Navigate to the correct directory using Command Prompt (Windows) or Terminal (Mac)
+### Install requirements.txt
+1. Navigate to the directory where requirements.txt is located using Command Prompt (Windows) or Terminal (Mac)
 2. Automatically install the libraries used in this project
     ```sh
     pip install -r requirements.txt
