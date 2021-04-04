@@ -25,6 +25,10 @@ Added InvalidDataLength class to the DataSet class (lines 96, 97) as a logical e
 Set global variable line_count equal to len(self.data) to avoid "Expected type 'Sized', got 'None' instead" error that occurred when attempting to print len(self.data) on line 477. The value of line_count is manipulated twice in the program, which does not affect the output in any unintended way.
 
 
+## Acknowledgements
+
+* [Eric Reed] (https://www.linkedin.com/in/eric-reed-a18b82a1)
+
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/williametholke
