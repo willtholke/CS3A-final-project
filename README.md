@@ -18,7 +18,7 @@
 <br>
 <p align="center">
     <a href="https://github.com/willtholke/NY-rent-data">
-        <img src="screenshot.png" alt="Product screenshot" width="750" height"750">
+        <img src="/image/screenshot.png" alt="Product screenshot" width="750" height"750">
     <a/>
 <p>
 
