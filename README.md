@@ -27,7 +27,7 @@ Set global variable line_count equal to len(self.data) to avoid "Expected type '
 
 ## Acknowledgements
 
-[Professor Eric Reed](https://www.linkedin.com/in/eric-reed-a18b82a1)
+* [Professor Eric Reed](https://www.linkedin.com/in/eric-reed-a18b82a1)
 
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
