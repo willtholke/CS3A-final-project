@@ -1,12 +1,20 @@
-# CS3A-final-project
-##### **Name:** William Tholke
-##### **Date:** 03/21/2021
-##### **Course:** CS3A w/ Professor Reed
+<h1 align="center">NY-Rent-Data</h1>
+<h3 align="center">Load, display, & interact with lightweight airbnb data.</h3>
+
+<h4 align="center">
+    <a href="#overview">Overview</a> -
+    <a href="#setup">Setup</a> -
+    <a href="#changelog">Changelog</a>
+</h4>
+  
 
 ## Overview
 This project displays airbnb data from a .csv file in a way that allows user to interact with said data.
 
-## Updates
+## Setup
+1) install Discord package: `pip install discord`
+
+## Changelog
 This program has been modified since its last version such that the new global string object called 'filename' (which refers to the new airbnb data source, 'AB_NYC_2019.csv') is utilized in load_file(), the new method in the DataSet class that loads data from filename.
 ### Error Notes:
 Added InvalidDataLength class to the DataSet class (lines 96, 97) as a logical error to be raised (lines 178-180) if the length of the file referred to by 'filename' is not 48895.
