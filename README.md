@@ -22,10 +22,6 @@
     <a/>
 <p>
 
-
-<p> This repository is an improved version of my submission for the final assignment in Foothill College Professor Eric Reed's course, Object-Oriented Programming Methodologies in Python (CS3A), which I completed during the Winter 2021 Quarter at Foothill College. This repository no longer serves as a valid submission for the final project and has no remaining utility for students at Foothill College.
-
-
 ### Pythonic Features
 * Class design and object creation
 * Enum & custom exception classes
@@ -64,11 +60,6 @@ To get a local copy up and running, follow these steps
 * The new global string object called 'filename' (which refers to the new airbnb data source, 'AB_NYC_2019.csv') is utilized in load_file(), the new method in the DataSet class that loads data from filename.
 * Added InvalidDataLength class to the DataSet class (lines 96, 97) as a logical error to be raised (lines 178-180) if the length of the file referred to by 'filename' is not 48895.
 * Set global variable line_count equal to len(self.data) to avoid "Expected type 'Sized', got 'None' instead" error that occurred when attempting to print len(self.data) on line 477. The value of line_count is manipulated twice in the program, which does not affect the output in any unintended way.
-
-
-## Acknowledgements
-* [Professor Eric Reed](https://www.linkedin.com/in/eric-reed-a18b82a1)
-
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/williametholke
